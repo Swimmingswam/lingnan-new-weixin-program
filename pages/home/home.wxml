@@ -1,0 +1,50 @@
+<import src="news-template/news.wxml" />
+<view class="container">
+  <swiper vertical="{{false}}" class="display" indicator-dots="true" indicator-color="rgba(255,255,255,0.1)" indicator-active-color="rgba(250,250,250,0.5)" autoplay="true" interval="2000" circular="true" bindtap='enter_school'>
+    <swiper-item>
+      <image src="/images/1.jpg" data-postid="0" catchtap="enteracticle"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/2.jpg" data-postid="1" catchtap="enteracticle"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/5.jpg" data-postid="2" catchtap="enteracticle"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/6.jpg" data-postid="3" catchtap="enteracticle"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/7.jpg" data-postid="4" catchtap="enteracticle"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/8.jpg" data-postid="5" catchtap="enteracticle"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/9.jpg" data-postid="6" catchtap="enteracticle"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/10.jpg" data-postid="7" catchtap="enteracticle"></image>
+    </swiper-item>
+  </swiper>
+  <view class="news-item" catchtap="enteracticle">
+    <template is="news" data="{{...news}}" />
+  </view>
+  <view class="news-item" catchtap="enteracticle">
+    <template is="news" data="{{...news}}" />
+  </view>
+  <view class="news-item" catchtap="enteracticle">
+    <template is="news" data="{{...news}}" />
+  </view>
+  <view class="news-item" catchtap="enteracticle">
+    <template is="news" data="{{...news}}" />
+  </view>
+  <view class="news-item" catchtap="enteracticle">
+    <template is="news" data="{{...news}}" />
+  </view>
+  <view class="news-item" catchtap="enteracticle">
+    <template is="news" data="{{...news}}" />
+  </view>
+
+
+
+</view>

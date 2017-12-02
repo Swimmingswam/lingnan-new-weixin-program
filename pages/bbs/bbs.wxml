@@ -1,0 +1,13 @@
+<import src="bbs-template/bbs.wxml" />
+<view class="bbs-item">
+<template is="bbs" data="{{...bbs}}"/>
+</view>
+<view class="bbs-item">
+<template is="bbs" data="{{...bbs}}"/>
+</view>
+<view class="bbs-item">
+<template is="bbs" data="{{...bbs}}"/>
+</view>
+<view class="bbs-item">
+<template is="bbs" data="{{...bbs}}"/>
+</view>

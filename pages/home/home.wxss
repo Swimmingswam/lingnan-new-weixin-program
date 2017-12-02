@@ -1,0 +1,15 @@
+@import "news-template/news.wxss";
+.display{
+  width:100%;
+  height:450rpx;
+}
+.display image{
+  width:100%;
+  height:450rpx;
+}
+.container{
+  background:#ccc;
+}
+.news-item{
+  margin:0rpx;
+}

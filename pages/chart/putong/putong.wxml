@@ -1,0 +1,19 @@
+<view>
+<image class="image" src="/images/chart.jpg"></image>
+<view class="chart">
+<view class="chart-item">
+  <view class="data-title">姓名：</view>
+  <input  class="item" password="true" placeholder="请输入姓名"/>
+</view>
+<radio-group class="radio-group">
+    <radio class="radio" value="IDcard" checked="true"/>身份证
+   <radio class="radio" value="Examnum" />准考证
+</radio-group>
+<view class="chart-item">
+  <input class="item" type="number" maxlength="10" placeholder="请输入证件号码"/>
+</view>
+<view class="chart-item">
+<button type="primary">查询</button>
+</view>
+</view>
+</view>

@@ -1,0 +1,6 @@
+<template name="require">
+<view class="require-box">
+<image src="{{image}}" class="image"></image>
+<text class="title">{{title}}</text>
+</view>
+</template>

@@ -1,0 +1,17 @@
+.image{
+  width:100%;
+  height:300rpx;
+}
+.chart{
+  margin:60rpx;
+}
+.chart-item{
+  margin:50rpx 20rpx;
+}
+.data-title{
+  color:#333;
+}
+.item{
+border:1rpx solid #ccc;
+border-radius: 10rpx;
+}

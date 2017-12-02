@@ -1,0 +1,17 @@
+<template name="news" >
+  <view class="news">
+    <view class="news-bar">
+      <text class="news-title">{{title}}</text>
+      <text class="news-date">{{date}}</text>
+    </view>
+    <image src="{{image}}" class="news-image"></image>
+    <text class="news-content">
+      {{content}}
+    </text>
+    <view class="line"></view>
+    <view class="news-read">
+      <text class="read">阅读全文</text>
+      <text class="enter">></text>
+    </view>
+  </view>
+</template>

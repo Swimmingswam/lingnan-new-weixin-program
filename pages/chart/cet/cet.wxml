@@ -1,0 +1,16 @@
+<view>
+<image class="image" src="/images/chart.jpg"></image>
+<view class="chart">
+<view class="chart-item">
+  <view class="data-title">准考证号：</view>
+  <input class="item" type="number" maxlength="10" placeholder="请输入准考证号"/>
+</view>
+<view class="chart-item">
+  <view class="data-title">姓名：</view>
+  <input  class="item" password="true" placeholder="请输入姓名"/>
+</view>
+<view class="chart-item">
+<button type="primary">查询</button>
+</view>
+</view>
+</view>

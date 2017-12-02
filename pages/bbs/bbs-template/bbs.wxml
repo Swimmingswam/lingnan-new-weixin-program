@@ -1,0 +1,12 @@
+<template name="bbs">
+  <view class="bbs">
+    <view class="someone">
+      <image class="someone-image" src="/images/1.jpg"></image>
+      <text class='someone-name'>2015404114</text>
+    </view>
+    <view class="content">
+    {{bbscontent}}
+    </view>
+    <text class="someone-time">1个小时前</text>
+  </view>
+</template>

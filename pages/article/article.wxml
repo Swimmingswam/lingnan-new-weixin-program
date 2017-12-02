@@ -1,0 +1,14 @@
+<!--pages/article/article.wxml-->
+<view class="article">
+  <text class="title">{{title}}</text>
+  <view class="info-bar">
+    <text class="date">{{date}}</text>
+    <text class="author">{{author}}</text>
+  </view>
+  <text class="weixin">{{weixin}}</text>
+  <view class="content">{{content}}</view>
+  <view class="like-bar">
+    <text class="read">阅读：{{read}}</text>
+    <text class="like">点赞：{{zan}}</text>
+  </view>
+</view>

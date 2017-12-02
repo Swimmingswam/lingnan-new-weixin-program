@@ -1,0 +1,47 @@
+.bbs {
+  background:#eee;
+  margin:auto;
+  /*flex-direction: column;*/
+  /*margin: 20rpx 0rpx 10rpx 0rpx;*/
+  width:650rpx;
+  height:350rpx;
+  border-radius: 15rpx;
+}
+.someone{
+  padding:15rpx;
+  display:flex;
+  align-items:center;
+}
+.someone-image{
+  margin-left:20rpx;
+  margin-top:18rpx;
+  width:150rpx;
+  height:150rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.someone-name{
+ margin-left:20rpx;
+  margin-top:10rpx;
+  font-size:30rpx;
+  color:#666;
+  
+}
+.someone-time{
+margin-right:20rpx;
+  margin-top:10rpx;
+  font-size:28rpx;
+  float:right;
+  color:#bbb;
+}
+.content{
+   margin-top:5rpx;
+  padding-left:40rpx;
+  padding-right:40rpx;
+  padding-bottom: 20rpx;
+  font-size:32rpx;
+  vertical-align: middle;
+  line-height: 40rpx;
+  color:#555;
+}
+

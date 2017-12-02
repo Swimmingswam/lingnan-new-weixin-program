@@ -1,0 +1,8 @@
+<import src="require-template/require.wxml" />
+<view class="all">
+  <block wx:for="{{require}}" wx:for-item="item" >
+    <view class="page" catchtap="onask" data-src="{{item.src}}">
+      <template is="require" data="{{...item}}" />
+    </view>
+  </block>
+</view>

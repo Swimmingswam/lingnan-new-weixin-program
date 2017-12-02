@@ -1,0 +1,16 @@
+<view>
+<image class="image" src="/images/chart.jpg"></image>
+<view class="chart">
+<view class="chart-item">
+  <view class="data-title">学号：</view>
+  <input class="item" type="number" maxlength="10" placeholder="请输入学号"/>
+</view>
+<view class="chart-item">
+  <view class="data-title">密码：</view>
+  <input  class="item" password="true" placeholder="请输入密码"/>
+</view>
+<view class="chart-item">
+<button type="primary">查询</button>
+</view>
+</view>
+</view>

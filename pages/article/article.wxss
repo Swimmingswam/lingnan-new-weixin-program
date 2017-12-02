@@ -1,0 +1,42 @@
+/* pages/article/article.wxss */
+.article{
+  padding:20rpx 20rpx;
+  width:100%;
+}
+.title{
+  margin:45rpx 30rpx;
+  font-size: 50rpx;
+  font-weight: 500;
+}
+.info-bar{
+  margin:15rpx 30rpx;
+  width:100%;
+  color:#666;
+  font-size: 35rpx;
+}
+.date{
+  /*float:left;*/
+  margin-right:25rpx;
+}
+.weixin{
+   margin:5rpx 25rpx;
+   margin-top:15rpx;
+   color:#405f80;
+   font-size: 35rpx;
+   display:block;
+}
+.content{
+   margin:55rpx 25rpx;
+   /*border:1rpx solid;*/
+}
+.like-bar{
+  margin:35rpx 25rpx;
+}
+.read{
+  display:inline-block;
+  margin-right:55rpx;
+  color:#666;
+}
+.like{
+  color:#405f80;
+}

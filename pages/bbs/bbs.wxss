@@ -1,0 +1,5 @@
+@import "bbs-template/bbs.wxss";
+.bbs-item{
+  display:flex;
+  margin-top:20rpx;
+}

@@ -1,0 +1,7 @@
+<view class="container">
+ <image src="/images/tou.jpg" class="image"></image>
+ <text class="hello">你好， {{id}}</text>
+ <view class="motto-container" catchtap="enter_home">
+  <text class="motto" >点击进入</text>
+ </view>
+</view>

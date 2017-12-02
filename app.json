@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/hello/hello",
+    "pages/chart/body/body",
+    "pages/chart/computer/computer",
+    "pages/chart/server/server",
+    "pages/chart/putong/putong",
+    "pages/chart/cet/cet",
+    "pages/chart/score/score",
+    "pages/article/article",
+    
+    "pages/home/home",
+    "pages/require/require",
+    "pages/bbs/bbs"
+    
+   
+    
+    
+    
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "岭南师范学院",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/home2.jpg",
+        "selectedIconPath": "images/home.jpg"
+      },
+      {
+        "pagePath": "pages/require/require",
+        "text": "查询",
+        "iconPath": "images/require2.jpg",
+        "selectedIconPath": "images/require.jpg"
+      },
+      {
+        "pagePath": "pages/bbs/bbs",
+        "text": "论坛",
+        "iconPath": "images/bbs2.jpg",
+        "selectedIconPath": "images/bbs.jpg"
+      }
+    ]
+  }
+}
